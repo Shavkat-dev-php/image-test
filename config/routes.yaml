@@ -1,0 +1,15 @@
+
+image_upload:
+    path: /
+    controller: App\Controller\ImageController::index
+    methods: [GET]
+
+upload_images:
+    path: /upload-images
+    controller: App\Controller\ImageController::uploadImages
+    methods: [POST]
+
+get_saved_images:
+    path: /get-saved-images
+    controller: App\Controller\ImageController::getSavedImages
+    methods: [GET]

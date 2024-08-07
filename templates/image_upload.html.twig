@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../assets/styles/app.css">
+        <title>Image Upload</title>
+    </head>
+    <body>
+        <h1>Uploading images via link</h1>
+        <form id="image-upload-form">
+            <label for="image-url">Image Page URL:</label><input type="text" id="image-url" name="image-url" placeholder="Enter page URL" required>
+            <button type="submit">Upload images</button>
+        </form>
+        <div id="image-gallery"></div>
+        <div id="status-message"></div>
+
+        <script src="{{ asset('app.js') }}"></script>
+    </body>
+</html>

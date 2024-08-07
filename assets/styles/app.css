@@ -1,0 +1,39 @@
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#image-upload-form {
+    margin-bottom: 20px;
+}
+
+#image-upload-form input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 300px;
+}
+
+#image-upload-form button {
+    padding: 8px 16px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#image-upload-form button:hover {
+    background-color: #0056b3;
+}
+
+#image-gallery img {
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-width: 100%;
+    height: auto;
+}
